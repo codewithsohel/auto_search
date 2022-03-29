@@ -1,0 +1,9 @@
+# Frontend changes : 
+ 1. This application is completed with the help of react. 
+ 2. Data rendering is and all the functionality is completed with the help of react + js. 
+ 3. Data fetching is done with the help  axio liberary.
+ 4. For serach function using javascript at frontend to do filter on change of search field. you don't need to use enter to serach as you change in the search field your data will be change in UI.
+ 5. For search name field is used.
+ 
+# Backend changes :
+ 1. In backend simple changes are done so that get the data at frontend.
