@@ -1,0 +1,76 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+
+    
+    width: 100%;
+    height: auto;
+    top: 0; left: 0;
+    padding: 100px 20px 0;
+    background-image: url('/img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:100vh;
+
+    div.content {
+        max-width: $siteWidth;
+        margin: 0 auto;
+        color: #FFF;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+.products{
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 20px;
+    grid-template-columns: auto auto auto auto;
+    @media(max-width:414px){
+        display: block;
+    }
+    .column{
+        padding: 10px;
+        .card-wd{
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            img{
+                height: 210px;
+            }
+            .pro-detail{
+                padding:12px;
+                text-align: left;
+                h4{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    color: #444;
+                }
+                .location{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    .price-box{
+                        font-weight: bold;
+                        font-size: 22px;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        margin-top: 0;
+                        color: #b8b5da;
+                    }
+                    a{
+                        color: #e16f44;
+                        text-decoration: underline;
+                    }
+                    p,a{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
